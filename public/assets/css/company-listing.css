@@ -1,0 +1,115 @@
+/* Company Listing Section Styles */
+.company-listing-section {
+    position: relative;
+    padding: 120px 0 90px 0;
+}
+
+.company-block-one {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    transition: all 500ms ease;
+    padding-top: 70px; /* Adjusted to accommodate image position */
+}
+
+.company-block-one:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.company-block-one .inner-box {
+    position: relative;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    padding-top: 80px; /* Adjusted to move content down from image */
+}
+
+.company-block-one .inner-box .image-box {
+    position: absolute;
+    top: -50px; /* Half of image height to be outside */
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: auto;
+
+    height: 80px;
+    border-radius: 0; /* Square shape */
+    overflow: hidden;
+    /* border: 1px solid #eee;
+    background-color: #fff;  */
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+}
+
+.company-block-one .inner-box .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company-block-one .inner-box h3 {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.company-block-one .inner-box .info-list {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.company-block-one .inner-box .info-list li {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #666666;
+    margin: 0 10px;
+}
+
+.company-block-one .inner-box .info-list li i {
+    color: #ff5a5f; /* Example color, adjust to theme */
+    margin-right: 5px;
+}
+
+.company-block-one .inner-box p {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.company-block-one .inner-box .btn-box {
+    position: relative;
+    display: block;
+}
+
+.company-block-one .inner-box .btn-box .theme-btn {
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 767px) {
+    .company-block-one .inner-box {
+        padding: 20px;
+    }
+    .company-block-one .inner-box h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .company-block-one .inner-box .info-list li {
+        display: block;
+        margin: 5px 0;
+    }
+}

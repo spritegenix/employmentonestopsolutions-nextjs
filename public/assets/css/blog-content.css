@@ -1,0 +1,87 @@
+/* Basic styling for rich text content rendered via dangerouslySetInnerHTML */
+
+.blog-details-content .text-box p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #444;
+}
+
+.blog-details-content .text-box h1,
+.blog-details-content .text-box h2,
+.blog-details-content .text-box h3,
+.blog-details-content .text-box h4,
+.blog-details-content .text-box h5,
+.blog-details-content .text-box h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222;
+}
+
+.blog-details-content .text-box h1 { font-size: 2.5em; }
+.blog-details-content .text-box h2 { font-size: 2em; }
+.blog-details-content .text-box h3 { font-size: 1.75em; }
+.blog-details-content .text-box h4 { font-size: 1.5em; }
+.blog-details-content .text-box h5 { font-size: 1.25em; }
+.blog-details-content .text-box h6 { font-size: 1em; }
+
+.blog-details-content .text-box strong {
+    font-weight: 700;
+}
+
+.blog-details-content .text-box em {
+    font-style: italic;
+}
+
+.blog-details-content .text-box ul,
+.blog-details-content .text-box ol {
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+
+.blog-details-content .text-box ul li {
+    list-style: disc;
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+.blog-details-content .text-box ol li {
+    list-style: decimal;
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+.blog-details-content .text-box blockquote {
+    margin: 2em 0;
+    padding: 1.5em;
+    border-left: 4px solid #007bff;
+    background-color: #f8f9fa;
+    font-style: italic;
+    color: #555;
+}
+
+.blog-details-content .text-box pre {
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 1em;
+}
+
+.blog-details-content .text-box code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e0e0e0;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+.blog-details-content .text-box a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.blog-details-content .text-box a:hover {
+    text-decoration: none;
+}
